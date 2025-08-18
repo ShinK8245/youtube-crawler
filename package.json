@@ -1,0 +1,22 @@
+{
+  "name": "yt-channel-crawler",
+  "version": "1.0.0",
+  "description": "YouTube channel crawler using YouTube Data API v3",
+  "main": "yt-channel-crawler.ts",
+  "scripts": {
+    "start": "ts-node yt-channel-crawler.ts",
+    "run": "ts-node yt-channel-crawler.ts"
+  },
+  "keywords": ["youtube", "crawler", "typescript"],
+  "license": "MIT",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "dotenv": "^17.2.1",
+    "googleapis": "^156.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
